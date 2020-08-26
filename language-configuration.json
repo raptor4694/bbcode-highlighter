@@ -1,0 +1,46 @@
+{
+    // symbols used as brackets
+    "brackets": [
+        ["[", "]"]
+    ],
+    // symbols that are auto closed when typing
+    "autoClosingPairs": [
+        /*
+        ["[", "]"],
+        */
+        [":icon", ":"],
+        [":link", ":"],
+        ["[i]", "[/i]"],
+        ["[b]", "[/b]"],
+        ["[u]", "[/u]"],
+        ["[s]", "[/s]"],
+        ["[sup]", "[/sup]"],
+        ["[sub]", "[/sub]"],
+        ["[spoiler]", "[/spoiler]"],
+        ["[color=", "][/color]"],
+        ["[url=", "][/url]"],
+        ["[quote]", "[/quote]"],
+        ["[quote=", "][/quote]"],
+        ["[left]", "[/left]"],
+        ["[right]", "[/right]"],
+        ["[center]", "[/center]"],
+        ["[yt]", "[/yt]"],
+        ["[h1]", "[/h1]"],
+        ["[h2]", "[/h2]"],
+        ["[h3]", "[/h3]"],
+        ["[h4]", "[/h4]"],
+        ["[h5]", "[/h5]"]
+    ],
+    // symbols that that can be used to surround a selection
+    "surroundingPairs": [
+        ["[", "]"],
+        [":", ":"]
+    ],
+    "autoCloseBefore": ";:.,=?!\"'#$%^~*&|_+-{}]()<> \n\tabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+    "folding": {
+        "markers": {
+            "start": "\\[(?:[biu]|s(?:u[bp]|poiler)?|yt|h[1-5]|(?:color|url)=[^\\]]*|quote(?:=[^\\]]*)?)\\]",
+            "end": "\\[/(?:[bi]|s(?:u[bp]|poiler)?|yt|h[1-5]|color|u(?:rl)?|quote)\\]"
+        }
+    }
+}

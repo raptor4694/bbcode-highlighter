@@ -1,0 +1,25 @@
+{
+    "name": "bbcode-highlighter",
+    "displayName": "BBCode Highlighter",
+    "description": "Highlighter for online BBCode",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "bbcode",
+            "aliases": ["BBCode", "bbcode"],
+            "extensions": ["bbcode"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "bbcode",
+            "scopeName": "source.bb",
+            "path": "./syntaxes/bbcode.tmLanguage.json"
+        }]
+    }
+}
